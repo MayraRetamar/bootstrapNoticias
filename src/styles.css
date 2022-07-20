@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+}
+.container-fluid {
+  background-color: lightskyblue;
+}
+.container2 {
+  margin-block-start: 5%;
+  text-align: center;
+  background-color: darkseagreen;
+}
+.container3 {
+  margin-block-start: 50%;
+  text-align: center;
+  background-color: lightskyblue;
+}

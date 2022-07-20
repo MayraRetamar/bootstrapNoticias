@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <title>MNoticias</title>
+  </head>
+
+  <body>
+    <h1></h1>
+
+    <nav class="navbar navbar-dark-expand-lg bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Diario Digital</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav-dark bg-primary">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="src/pagina2/argentina.html"
+              >Argentina</a
+            >
+            <a
+              class="nav-link"
+              href="src/pagina3/mundo.html"
+              >Mundo</a
+            >
+            <a
+              class="nav-link"
+              href="https://www.lanacion.com.ar/deportes/futbol/marcelo-gallardo-conferencia-de-prensa-nid19072022/"
+              >Deportes</a
+            >
+            <a
+              class="nav-link"
+              href="https://www.lanacion.com.ar/espectaculos/musica/para-el-indio-julio-vino-con-regalos-cuando-es-el-nuevo-show-de-su-banda-y-de-que-se-tratan-los-nid19072022/"
+              >Espectáculos</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-xs-12">
+          <a
+            href="https://www.lanacion.com.ar/economia/dolar/dolar-hoy-el-blue-vuelve-a-subir-y-se-acerca-a-su-record-nid13072022/"
+            ><h2>Dólar blue</h2></a
+          >
+          <h3>Dólar hoy. El blue subió $11 y marcó un nuevo récord</h3>
+          <img class="img-fluid" src="src/dolar.webp" alt="dolar" />
+        </div>
+        <div class="col-lg-3 col-xs-12">
+          <a
+            href="https://www.lanacion.com.ar/sociedad/empezaron-con-excursiones-de-pesca-y-abrieron-uno-de-los-restaurantes-mas-codiciados-de-la-costa-nid13072022/"
+            ><h2>"Esto era un médano más"</h2></a
+          >
+          <h3>
+            Empezaron con excursiones de pesca y abrieron un codiciado
+            restaurante
+          </h3>
+          <img class="img-fluid" src="src/medano.webp" alt="medano" />
+        </div>
+        <div class="col-lg-3 col-xs-12">
+          <a
+            href="https://www.lanacion.com.ar/sociedad/revelador-informe-sobre-cuantos-chicos-argentinos-van-al-jardin-y-el-lugar-del-pais-en-un-ranking-nid13072022/"
+            ><h2>Educación</h2></a
+          >
+          <h3>
+            Revelador informe sobre cuántos chicos argentinos van al jardín y el
+            lugar del país en un ranking regional
+          </h3>
+          <img class="img-fluid" src="src/educavion.webp" alt="educación" />
+        </div>
+        <div class="col-lg-3 col-xs-12">
+          <a
+            href="https://www.lanacion.com.ar/lifestyle/acertijo-nivel-experto-podes-encontrar-la-gallina-en-la-granja-en-menos-de-10-segundos-nid13072022/"
+            ><h2>Nivel Experto</h2></a
+          >
+          <h3>
+            Acertijo nivel experto: ¿podés encontrar la gallina en la granja en
+            menos de 10 segundos?
+          </h3>
+          <img class="img-fluid" src="src/granja.webp" alt="acertijo" />
+        </div>
+      </div>
+    </div>
+    <div class="container2">
+      <h3>Clima</h3>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="img-fluid" src="src/capital_federal.jpg_1437019975.webp" class="d-block w-100" alt="foto clima">
+          </div>
+          <div class="carousel-item">
+            <img class="img-fluid" src="src/mar_del_plata.jpg_1437019975.webp" class="d-block w-100" alt="foto clima">
+          </div>
+          <div class="carousel-item">
+            <img class="img-fluid" src="src/pinamar.jpg_1432402370.webp" class="d-block w-100" alt="foto clima">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+      
+    <div class="container3">
+     <footer class="page-footer font-small cyan darken-3">
+      <div class="footer-copyright text-center py-3">
+        © 2022 Copyright Mayra Retamar
+      </div>
+    </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
